@@ -1,3 +1,6 @@
+# This code was not written by only me because it was a project we did together with others, so I may not be able to solve 
+# any problem in the code( especially at the level of the minimax algorithm.
+
 def const_board(board):
   print("Current state of the board!\n")
   for i in range(0,9):
