@@ -19,10 +19,22 @@ nav{
     padding-left: 8%;
     padding-right: 8%;
 }
+.image{
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    position: relative;
+    right: 6%;
+    border-radius: 150px;
+}
 .logo{
     color:white;
-    font-size: 35px;
-    letter-spacing: 1px;
+    font-size: 25px;
+    letter-spacing: 4px;
     cursor: pointer;
 }
 span{
@@ -39,7 +51,7 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
-    font-size: 24px;
+    font-size: 18px;
 
 }
 nav ul li a:hover{
@@ -82,11 +94,17 @@ nav ul li a:hover{
     font-size: 18px;
     letter-spacing: 2px;
 }
+.content .name:hover{
+    transition-duration: 0.4s;
+    color: brown;
+    transform: scale(1.2);
+}
 .newsletter form{
     width: 380px;
     max-width: 100%;
     position: relative;
     padding: 2%;
+    justify-content: space-between;
 }
 .newsletter form input:first-child{
     display: inline-block;
@@ -102,9 +120,10 @@ nav ul li a:hover{
     display: inline-block;
     outline: none;
     border: none;
-    padding: 10px 30px;
+    padding: 14px 30px;
     border-radius: 20px;
     font-size: 20px;
+    left: 120%;
     
 }
 
@@ -118,11 +137,44 @@ nav ul li a:hover{
 }
 .box{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
     background-color: white;
     border: 3px;
+    font-size: 20px;
+    color: rgb(68, 76, 76);
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
+
+.about, .services{
+    background-color:springgreen;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.about{
+    background-color: rgb(127, 243, 187);
+    width: 40%;
+}
+
+.services{
+    position: relative;
+    background-color: rgb(127, 243, 187);
+    width: 40%;
+    left: 10%;
+}
+.about:hover {
+    transition: transform 0.4s;
+    transform: scale(1.2);
+  }
+.services:hover{
+    transition: transform .4s;
+    transform :scale(1.2);
+    border-color: blue;
+    border-width: 10px;
+}
+.box h{
+    color: black;
+}
+

@@ -29,6 +29,6 @@ plt.scatter(list(range(len(sequence))), sequence)
 #plt.plot(list(range(len(sequence))), sequence)
 
 plt.plot(sequence.index(max(sequence)), max(sequence), color =
-"red",label = "Highest stopping point")
+"red",label = "Highest stopping point",ls = 6)
 #plt.legend()
 plt.show()

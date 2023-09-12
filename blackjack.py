@@ -123,3 +123,4 @@ while flag == True:
             if dealer_score > score_player_card:
                 print("Dealer won")
                 flag = False
+
